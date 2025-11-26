@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Turli sahifalar uchun alohida fon */
+.home-bg { background: #a6e6ff; }
+.flowers-bg { background: #ffe8f3; }
+.fertilizer-bg { background: #e4ffd9; }
+.contact-bg { background: #d9f2ff; }
+
+/* Header */
+header {
+    background: #0077a8;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 24px;
+    color: #004a66;
+}
+.center {
+    text-align: center;
+
+}
+

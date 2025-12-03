@@ -1,38 +1,146 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Jasmin Gullar Do'koni</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="home-bg">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gullar Do‘koni</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #ffffff;
+            color: #333;
+        }
 
-<header>
-    <h1>Jasmin Gullar do'koniga xush kelibsiz</h1>
+        nav {
+            background: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #444;
+            font-weight: 600;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #e91e63;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin: 0;
+            color: #e91e63;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 16px;
+            color: #555;
+        }
+
+        .flower-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 14px;
+        }
+
+        .card h3 {
+            font-size: 22px;
+            margin: 15px 0 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #fff;
+            margin-top: 40px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
     <nav>
         <a href="index.html">Bosh sahifa</a>
         <a href="flowers.html">Gullar</a>
-        <a href="fertilizers.html">O‘g‘itlar</a>
-        <a href="contact.html">Aloqa</a>
+        <a href="fertilizers.html">Categories</a>
+        <a href="contact.html">Contact</a>
     </nav>
-</header>
 
-<section class="center">
-    <h1>                                </h1>
-    <h2>                                                          </h2>
-</section>
-<div class="gallery">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDKfbxHsDkCM5zBmcmzx3ANbQZSMPPpLMzbxBiVQ4aRRgJyh6A6N6JPUU15hKghIsYrQ1XiqsCTalYc1R_Ae1v_KadjTPCqYEYey9J08&s=10">
-    <img src="https://avatars.mds.yandex.net/i?id=6fd6f25ff049d6e8a64abd054a914f15e9867fdd-12190868-images-thumbs&n=13">
-    <img src="https://asset.bloomnation.com/c_fill,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,h_2000,q_auto,w_2000/v1715030051/vendor/9260/catalog/product/2/0/20240506020438_file_6638e3761fa62_6638e5acac472.jpeg">
-    <img src="https://frankfurt.apollo.olxcdn.com/v1/files/903j9dvwege53-UZ/image">
-    <img src="https://frankfurt.apollo.olxcdn.com/v1/files/69ac3d8s2h8g1-UZ/image;s=1134x1468">
-    <img src="https://cdn-img.birbir.uz/i/400x400-fit/files/1f/af/9cda425dd8bba182296d9c150d7b.jpg">
-    <img src="https://suret.pics/uploads/posts/2023-09/1695228142_1-7.jpg">
-    <img src="https://pro-buket.uz/wp-content/uploads/2021/09/19-%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D1%85.jpg">
-    <img src="https://suret.pics/uploads/posts/2023-09/1695228131_2-79.jpg">
-    <img src="https://suret.pics/uploads/posts/2023-09/1695228211_2-68.jpg">
-</div>
+    <section class="hero">
+        <h1>Gullar Do‘koni</h1>
+        <p>Eng chiroyli gullar va kategoriya bo‘yicha tanlov</p>
+    </section>
 
+    <section class="flower-grid">
+        <div class="card">
+            <img src="https://xabar.uz/static/crop/4/2/736_736_95_4201820064.jpg" alt="Rose" />
+            <h3>Atirgul</h3>
+            <p>Ranglari: qizil, oq, pushti, sariq, to‘q qizil, ko‘p rangli navlar ham bor.
+
+                Bo‘yi: naviga qarab 30 sm dan 2–3 metrli butagacha bo‘lishi mumkin.
+                
+                Hidi: juda yoqimli, ayrim navlari kuchli atirgul attori hidiga ega.
+                
+                Gullash davri: maydan kuzgacha (ba’zi navlar yil davomida ham gullaydi).</p>
+        </div>
+
+        <div class="card">
+            <img src="https://avatars.mds.yandex.net/i?id=cc3a7e96ecc58793cbe05df4993e4613b52d22d8-10769069-images-thumbs&n=13" alt="Tulip" />
+            <h3>Lola</h3>
+            <p>Tulpan birinchi navbatda Markaziy Osiyo (masalan, hozirgi Qozog‘iston, Qirg‘iziston, Tojikiston) hududlaridan Yevropaga tarqalgan deb hisoblanadi.
+
+                Bugungi kunda u dunyo bo‘ylab ornamental gul sifatida keng tarqalgan.
+                
+                Tulpan — bahor ramzi, ko‘pincha yangi boshlanish, uyg‘onish, umid timsoli sifatida qabul qilinadi.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://www.interfax.ru/ftproot/photos/photostory/2024/05/24/week/week1_1100.jpg" alt="Sunflower" />
+            <h3>Quyosh guli</h3>
+            <p>Turfa rang gullar bir joyda jam bo‘lib, tabiatning go‘zalligini yanada yorqinroq namoyon etmoqda. Nozik lola, mayin chinnigullar va rangli bog‘ gullari nafis uyg‘unlikda jonlanib, bahorning sof hislarini eslatadi. Har bir gul – tabiat ijodining betakror bo‘lagi
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Gullar Do‘koni
+    </footer>
 </body>
 </html>
